@@ -22,3 +22,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore directories
+/target/
+/build/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+/src/test/resources/downloads.txt
+
+# Ignore environment files (if you have sensitive data like API keys)
+.env
