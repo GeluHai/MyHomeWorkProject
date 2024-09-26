@@ -38,8 +38,8 @@ public class StepDefinitions {
             }
 
             assertNotNull("File path should not be null", filePath);
-            assertFalse("Objects should be loaded", jsonObjectsFromFile.isEmpty());
         }
+        assertFalse("Objects should be loaded", jsonObjectsFromFile.isEmpty());
     }
 
 
