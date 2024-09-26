@@ -31,7 +31,5 @@ replay_pid*
 .idea/
 *.iml
 
-/src/test/resources/downloads.txt
-
 # Ignore environment files (if you have sensitive data like API keys)
 .env
